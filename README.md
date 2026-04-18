@@ -2,7 +2,7 @@
 
 A collection of low-level network security tools implemented in C using **FreeBSD divert sockets** and **OpenSSL**, covering stateful packet filtering, transparent IP-level encryption, keyed authentication, and PKI infrastructure setup.
 
-Built as part of ISA 656 – Network Security coursework at George Mason University.
+Built as part of ISA 656 - Network Security coursework at George Mason University.
 
 ---
 
@@ -16,7 +16,7 @@ Built as part of ISA 656 – Network Security coursework at George Mason Univers
 
 ---
 
-## Component 1 — Stateful Packet Firewall
+## Component 1 - Stateful Packet Firewall
 
 Three user-space firewall programs that intercept and filter packets via FreeBSD's `ipfw` divert socket mechanism.
 
@@ -88,7 +88,7 @@ sudo ./statefulfilter_UDP
 
 ---
 
-## Component 2 — Transparent IP-Level Encryption & Authentication
+## Component 2 - Transparent IP-Level Encryption & Authentication
 
 ### `ip_cryptAuthAll.c`
 
